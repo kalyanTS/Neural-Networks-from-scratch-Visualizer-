@@ -1,0 +1,24 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+.canvas {
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  top: 150px;
+  left: 150px;
+  z-index: 1;
+}
+
+.header {
+  width: 80%;
+  height: 100px;
+  margin-left: 90px;
+}
+
+.header-content {
+  position: relative;
+  top: 30px;
+  left: 40px;
+}

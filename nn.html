@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="nn.css" />
+    <title>Neural Networks</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container-fluid header-content">
+        <div class="row">
+          <div class="col-md-3">
+            <p>Input Layer</p>
+          </div>
+          <div class="col-md-3">
+            <p>Hidden Layer Sizes</p>
+          </div>
+          <div class="col-md-3">
+            <p>Output Layer</p>
+          </div>
+          <div class="col-md-3">
+            <p>Learning Rate</p>
+          </div>
+          <div class="col-md-3">
+            <input type="text" class="form-control" id="input" />
+          </div>
+          <div class="col-md-3">
+            <input type="text" class="form-control" id="hidden" />
+          </div>
+          <div class="col-md-3">
+            <input type="text" class="form-control" id="output" />
+          </div>
+          <div class="col-md-3">
+            <input type="text" class="form-control" id="learningRate" />
+          </div>
+          <div class="col-md-3">
+            <button class="btn btn-primary start">start</button>
+          </div>
+          <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
+          <div class="col-md-3">
+            <h4 class="error">Error:</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <canvas class="canvas" width="1200" height="600"> </canvas>
+    <script src="nn.js"></script>
+  </body>
+</html>
